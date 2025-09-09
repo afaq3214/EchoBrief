@@ -31,7 +31,7 @@ export async function GET(request: NextRequest) {
 
     const response = await fetch(apiUrl, {
       headers: {
-        "User-Agent": "NewsHub/1.0",
+        "User-Agent": "EchoBrief/1.0",
       },
       next: { revalidate: 300 }, // Cache for 5 minutes
     })

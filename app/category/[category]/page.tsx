@@ -20,14 +20,14 @@ export async function generateMetadata({ params }: CategoryPageProps) {
 
   if (!validCategories.includes(category)) {
     return {
-      title: "Category Not Found - NewsHub",
+      title: "Category Not Found - EchoBrief",
     }
   }
 
   const categoryName = category.charAt(0).toUpperCase() + category.slice(1)
 
   return {
-    title: `${categoryName} News - NewsHub`,
+    title: `${categoryName} News - EchoBrief`,
     description: `Latest ${categoryName.toLowerCase()} news and articles. Stay updated with breaking news and trending stories in ${categoryName.toLowerCase()}.`,
     keywords: `${categoryName.toLowerCase()} news, ${categoryName.toLowerCase()} articles, latest ${categoryName.toLowerCase()} news`,
   }

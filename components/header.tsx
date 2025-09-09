@@ -47,7 +47,7 @@ export default function Header() {
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <span className="text-accent-foreground font-bold text-lg">N</span>
             </div>
-            <span className="text-xl font-bold text-primary">NewsHub</span>
+            <span className="text-xl font-bold text-primary">EchoBrief</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6">

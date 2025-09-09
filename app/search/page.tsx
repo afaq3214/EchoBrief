@@ -16,10 +16,10 @@ export async function generateMetadata({ searchParams }: SearchPageProps) {
   const query = searchParams.q || ""
 
   return {
-    title: query ? `Search results for "${query}" - NewsHub` : "Search - NewsHub",
+    title: query ? `Search results for "${query}" - EchoBrief` : "Search - EchoBrief",
     description: query
       ? `Search results for "${query}". Find the latest news and articles related to your search.`
-      : "Search for news articles and stories on NewsHub.",
+      : "Search for news articles and stories on EchoBrief.",
     keywords: `search, news search, ${query}`,
   }
 }

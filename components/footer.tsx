@@ -18,7 +18,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                 <span className="text-accent-foreground font-bold text-lg">N</span>
               </div>
-              <span className="text-xl font-bold text-primary">NewsHub</span>
+              <span className="text-xl font-bold text-primary">EchoBrief</span>
             </div>
             <p className="text-sm text-muted-foreground text-pretty">
               Your trusted source for breaking news, trending stories, and insightful analysis from around the world.
@@ -121,7 +121,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-sm text-muted-foreground">© 2024 NewsHub. All rights reserved. | Powered by News API</p>
+          <p className="text-sm text-muted-foreground">© 2024 EchoBrief. All rights reserved. | Powered by News API</p>
         </div>
       </div>
     </footer>

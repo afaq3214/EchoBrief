@@ -7,26 +7,26 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "NewsHub - Latest News & Blog Articles",
+  title: "EchoBrief - Latest News & Blog Articles",
   description:
     "Stay updated with the latest news, trending stories, and insightful blog articles from around the world. Your trusted source for breaking news and analysis.",
   keywords: "news, blog, articles, breaking news, latest news, world news, trending stories",
-  authors: [{ name: "NewsHub Team" }],
-  creator: "NewsHub",
-  publisher: "NewsHub",
+  authors: [{ name: "EchoBrief Team" }],
+  creator: "EchoBrief",
+  publisher: "EchoBrief",
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://newshub.com",
-    title: "NewsHub - Latest News & Blog Articles",
+    url: "https://EchoBrief.com",
+    title: "EchoBrief - Latest News & Blog Articles",
     description:
       "Stay updated with the latest news, trending stories, and insightful blog articles from around the world.",
-    siteName: "NewsHub",
+    siteName: "EchoBrief",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NewsHub - Latest News & Blog Articles",
+    title: "EchoBrief - Latest News & Blog Articles",
     description:
       "Stay updated with the latest news, trending stories, and insightful blog articles from around the world.",
   },
@@ -48,10 +48,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "NewsMediaOrganization",
-              name: "NewsHub",
-              url: "https://newshub.com",
-              logo: "https://newshub.com/logo.png",
-              sameAs: ["https://twitter.com/newshub", "https://facebook.com/newshub"],
+              name: "EchoBrief",
+              url: "https://EchoBrief.com",
+              logo: "https://EchoBrief.com/logo.png",
+              sameAs: ["https://twitter.com/EchoBrief", "https://facebook.com/EchoBrief"],
             }),
           }}
         />
